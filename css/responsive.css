@@ -1,0 +1,25 @@
+/* responsive */
+@media screen and (max-width: 992px) {
+
+  .container {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  /* market css */
+  .market {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    width: 500px;
+  }
+
+  /* form css */
+  #form {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+
+}

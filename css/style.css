@@ -1,0 +1,113 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: lavender;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+/* market css */
+.market {
+  background: rgb(8, 75, 62);
+  width: 315px;
+  height: 550px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.market img {
+  width: 150px;
+}
+
+.market p {
+  color: rgb(249, 226, 186);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* form css */
+#form {
+  background: #fff;
+  width: 500px;
+  height: 550px;
+  padding: 30px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#form #p {
+  width: 213px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#info input {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#info input::placeholder {
+  font-weight: 500;
+  color: #000;
+}
+
+#info input[type="email"],
+input[type="text"],
+input[type="password"] {
+  color: #000;
+  border: 1px solid #000;
+  outline: none;
+  padding: 10px 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+#info input[type="button"] {
+  background-color: rgb(0, 195, 139);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  padding: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* login-info css */
+#login-info p {
+  color: #ccc;
+  font-size: 12px;
+  width: 100%;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+#login-info #Service {
+  color: #ccc;
+}
+
+#login-info #logIn {
+  color: rgb(0, 195, 139);
+  font-weight: 600;
+}
